@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.elevenmedia.agency'),
   title: {
-    default: "Eleven Media | Award-Winning Social Media Marketing Agency",
+    default: "Eleven Media Agency",
     template: "%s | Eleven Media Agency"
   },
   description:
@@ -123,7 +123,7 @@ export default function RootLayout({
                 "width": 400,
                 "height": 400
               },
-              "description": "Award-winning social media marketing agency specializing in SEO, paid ads, creative strategy, and growth marketing for global brands.",
+              "description": "social media marketing agency specializing in SEO, paid ads, creative strategy, and growth marketing for global brands.",
               "foundingDate": "2020",
               "areaServed": "Worldwide",
               "serviceType": ["Digital Marketing", "Social Media Marketing", "SEO", "Paid Advertising", "Brand Strategy"],

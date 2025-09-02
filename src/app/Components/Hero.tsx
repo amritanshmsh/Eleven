@@ -126,7 +126,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-white/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </motion.a>
             
-            <motion.a
+            {/* <motion.a
               href="/#howitworks"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.98 }}
@@ -136,7 +136,7 @@ export default function Hero() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
               See How It Works
-            </motion.a>
+            </motion.a> */}
           </motion.div>
         </motion.div>
       </div>
